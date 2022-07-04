@@ -45,7 +45,6 @@ jobs:
           mkdir -p user/smartdns
           wget -P user/smartdns/ https://github.com/shyex/v2ray-padavan-doh/blob/master/padavan/smartdns/Makefile
           wget https://github.com/shyex/v2ray-padavan-doh/blob/master/padavan/user/Makefile -O user/Makefile
-          sed -i '$a\export SSL_CERT_FILE=/usr/lib/cacert.pem' user/scripts/profile
           mkdir -p user/v2ray
           wget -P user/v2ray/ https://github.com/shyex/v2ray-padavan-doh/blob/master/padavan/v2ray/Makefile
           mkdir -p user/xray
